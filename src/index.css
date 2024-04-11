@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Tiro+Devanagari+Marathi&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+
+}
+body {
+  background-color: rgb(230, 230, 240);
+  height: 89vh;
+}
+#mainBlock{
+  background-color: white;
+  width: 90%;
+  margin: 1% 3% 3% 5%;
+  padding: 20px;
+  height: 80vh;
+  border-radius: 10px;
+}
+h1{
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: xx-large;
+  letter-spacing: 10npm rpx;
+  text-decoration: underline;
+  
+}
+.appMain{
+  width: 90vw;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -20px;
+}
+
+
+.form{
+  background-color: rgb(230, 230, 240);
+  padding: 20px;
+  width: 40vw;
+  height: 35vh;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* margin: 5px; */
+
+
+}
+.submitButton{
+  width: 90%;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(123, 123, 172);
+  border: none;
+  margin-top: 10px;
+
+}
+.todoMain{
+  background-color: rgb(230, 230, 240);
+  padding: 20px;
+  width: 40vw;
+  /* margin: 5px; */
+  height: 35vh;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.courseInput{
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(179, 178, 178);
+  border: none;
+}
+.courseInput:hover{
+  background-color: rgb(245, 242, 242);
+
+}
+table{
+  /* background-color: blueviolet; */
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+th{
+  width: 20px;
+  background-color: blueviolet;
+  height: 25px;
+
+}
+.buttonsComp{
+  display: flex;
+  flex-direction: column;
+}
+.buttonsComp>button{
+  width: 100%;
+  height: 20px;
+  background-color: rgb(123, 123, 172);
+  border: none;
+  margin: 1px;
+}
+td{
+  height: 40px;
+  border: 1px solid gray;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+}
+thead{
+  position: sticky;
+  top: 0;
+}
+
+button{
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(104, 39, 104);
+}
